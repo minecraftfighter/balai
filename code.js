@@ -5,7 +5,7 @@ function fun1() {
 
 function save() {
   szr = document.getElementById("szr");
-  localStorage.setItem("csaniagamer", szr);
+  localStorage.setItem("csaniagamer", szr.value);
 }
 
 function show() {

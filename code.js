@@ -1,7 +1,6 @@
 function fun1() {
   szr = document.getElementById("szr").value;
   alert(szr);
-  jump = document.getElementById("jump").style.visibility = "visible";
 }
 
 function save() {

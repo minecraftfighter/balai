@@ -1,10 +1,10 @@
-szr = document.getElementById("szr");
-
 function fun1() {
+  szr = document.getElementById("szr");
   alert(szr);
 }
 
 function save() {
+  szr = document.getElementById("szr");
   localStorage.setItem("csaniagamer", szr);
 }
 

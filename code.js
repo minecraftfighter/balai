@@ -1,14 +1,14 @@
 function fun1() {
-  szr = document.getElementById("szr");
-  alert(szr.value);
+  szr = document.getElementById("szr").value;
+  alert(szr);
 }
 
 function save() {
-  szr = document.getElementById("szr");
-  localStorage.setItem("csaniagamer", szr.value);
+  szr = document.getElementById("szr").value;
+  localStorage.setItem("csaniagamer", szr);
 }
 
 function show() {
   szr2 = localStorage.getItem("csaniagamer");
-  alert(szr2.value);
+  alert(szr2);
 }

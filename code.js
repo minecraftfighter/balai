@@ -1,6 +1,6 @@
 function fun1() {
   szr = document.getElementById("szr");
-  alert(szr);
+  alert(szr.value);
 }
 
 function save() {

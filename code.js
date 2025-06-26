@@ -10,5 +10,5 @@ function save() {
 
 function show() {
   szr2 = localStorage.getItem("csaniagamer");
-  alert(szr2);
+  alert(szr2.value);
 }

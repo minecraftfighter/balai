@@ -1,1 +1,1 @@
-This is only for wbsite hosting
+This is only for website hosting
